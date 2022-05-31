@@ -4,5 +4,5 @@ This repository is the official implementation of Contrastive Sensor Transformer
 
 
 
-<img src=method.pdf width=80%/>
+<img src=./method.pdf width=80%/>
 
