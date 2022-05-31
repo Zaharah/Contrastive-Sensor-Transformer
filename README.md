@@ -12,7 +12,7 @@ This repository is the official implementation of Contrastive Sensor Transformer
 ![header image](https://github.com/Zaharah/Contrastive-Sensor-Transformer/blob/main/cst.JPG)
 
 ## Dataset Preparation
-To prepare the datasets, please follow the jupyet notebook given.
+To prepare the datasets, please follow code given in jupyter notebook above.
 
 ## Reference
 If you use this repository, please consider citing:
@@ -26,7 +26,7 @@ If you use this repository, please consider citing:
   number={},
   pages={3558-3562},
   doi={10.1109/ICASSP43922.2022.9746728}}</pre>
-```
+
 
 
 
