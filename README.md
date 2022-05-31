@@ -10,7 +10,7 @@ This repository is the official implementation of Contrastive Sensor Transformer
 </details>
 
 ![header image](https://github.com/Zaharah/Contrastive-Sensor-Transformer/blob/main/method.png)
-<b>Illustration of Contrastive Sensor Transformer.</b> A single transformation ```math t\in \mathcal{T} ``` is applied to input signal to prepare a pair of correlated views as input $q$ and $k+$. The input splitted into multiple fixed-size patches, to form the learnable patch and positional embedding and serve as input to our sensor transformer encoder $f(.)$. The encoder is trained with contrastive loss in an end-to-end manner to maximise similarity between related pairs and minimizing it for rest of the examples in a batch. The pre-trained encoder is then fine-tuned to solve specific downstream task.
+<b>Illustration of Contrastive Sensor Transformer.</b> A single transformation $t\in \mathcal{T}$ is applied to input signal to prepare a pair of correlated views as input $q$ and $k+$. The input splitted into multiple fixed-size patches, to form the learnable patch and positional embedding and serve as input to our sensor transformer encoder $f(.)$. The encoder is trained with contrastive loss in an end-to-end manner to maximise similarity between related pairs and minimizing it for rest of the examples in a batch. The pre-trained encoder is then fine-tuned to solve specific downstream task.
 
 ## Dataset Preparation
 To prepare the datasets, please follow code given in jupyter notebook above.
